@@ -1,0 +1,19 @@
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+/home/tnagasak/.anyenv/envs/rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240416-5715-1r0yk0 sitelibdir\=./.gem.20240416-5715-1r0yk0 clean
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240416-5715-1r0yk0 sitelibdir\=./.gem.20240416-5715-1r0yk0
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240416-5715-1r0yk0 sitelibdir\=./.gem.20240416-5715-1r0yk0 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240416-5715-1r0yk0/debug
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240416-5715-1r0yk0 sitelibdir\=./.gem.20240416-5715-1r0yk0 clean
