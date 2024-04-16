@@ -1,0 +1,18 @@
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/tnagasak/.anyenv/envs/rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-8438cj sitelibdir\=./.gem.20240416-9965-8438cj clean
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-8438cj sitelibdir\=./.gem.20240416-9965-8438cj
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-8438cj sitelibdir\=./.gem.20240416-9965-8438cj install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240416-9965-8438cj/bootsnap
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-8438cj sitelibdir\=./.gem.20240416-9965-8438cj clean

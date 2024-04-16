@@ -1,0 +1,48 @@
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/ffi-1.16.3/ext/ffi_c
+/home/tnagasak/.anyenv/envs/rbenv/versions/3.3.0/bin/ruby extconf.rb
+checking for pkg-config for libffi... ["-I/home/linuxbrew/.linuxbrew/Cellar/libffi/3.4.6/include ", "-L/home/linuxbrew/.linuxbrew/Cellar/libffi/3.4.6/lib/../lib", "-lffi"]
+checking for ffi_prep_closure_loc() in -lffi... yes
+checking for ffi_prep_cif_var()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_gc_mark_movable()... yes
+checking for whether -pthread is accepted as LDFLAGS... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/ffi-1.16.3/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-uzade3 sitelibdir\=./.gem.20240416-9965-uzade3 clean
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/ffi-1.16.3/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-uzade3 sitelibdir\=./.gem.20240416-9965-uzade3
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/ffi-1.16.3/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-uzade3 sitelibdir\=./.gem.20240416-9965-uzade3 install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20240416-9965-uzade3
+
+current directory: /home/tnagasak/workspace/sample_app/vendor/bundle/ruby/3.3.0/gems/ffi-1.16.3/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20240416-9965-uzade3 sitelibdir\=./.gem.20240416-9965-uzade3 clean
