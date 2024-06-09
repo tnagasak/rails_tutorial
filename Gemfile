@@ -6,6 +6,9 @@ ruby "3.3.0"
 gem "rails",           "7.0.4.3"
 gem "bcrypt",          "3.1.12"
 gem "bootstrap-sass",  "3.3.7"
+gem 'faker',           '3.4.1'
+gem 'will_paginate',           '4.0.0'
+gem 'will_paginate-bootstrap-style', '0.3.0'
 gem "sassc-rails",     "2.1.2"
 gem "sprockets-rails", "3.4.2"
 gem "importmap-rails", "1.1.5"
